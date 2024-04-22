@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(240, 248, 255);
+    font-family: 'Lora', serif;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    display: grid;
+    border: 15px;
+    height: 160px;
+    width: auto;
+    box-shadow: 50px 15px 5px;
+}
+
+header{
+    font-family: 'Lora', serif;
+    color: aliceblue;
+
+}
+
+#logo{
+    float: left;
+    padding: 15px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+a:visited{
+    color: inherit;
+}
+
+.headelements{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 15px;
+    margin: 32px;
+    padding: 32px;
+}
+.headelements{
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+main{
+    margin: 15px;
+    padding: 15px;
+}
+
+
+footer{
+    margin: auto;
+    border: 2px;
+    padding: 15px;
+    background-color: black;
+    font-size: 15px;
+    color: aliceblue;
+}
